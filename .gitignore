@@ -1,0 +1,7 @@
+# Do NOT submit these files
+.env
+api key.md
+__pycache__/
+*.pyc
+.cache/
+
