@@ -1,0 +1,15 @@
+# FinSight AI — Docker ignore
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git
+.gitignore
+*.egg-info
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+data/faiss_index/
+data/finsight.db
+data/bm25_index.pkl

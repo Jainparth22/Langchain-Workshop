@@ -1,6 +1,12 @@
-# TechNova Solutions Policy Q&A — RAG System
+# LangChain Workshop — GenAI Projects
 
-A production-grade Retrieval-Augmented Generation (RAG) system built with **LangChain**, **Groq**, **HuggingFace**, and **FAISS** to answer employee questions about company policies accurately, with zero hallucination.
+> **⭐ Featured Project → [`finsight-ai/`](./finsight-ai/)** — Enterprise Financial Intelligence Platform: Multi-agent LangGraph RAG, Hybrid BM25+FAISS retrieval, Cross-encoder reranking, RAGAS evaluation, FastAPI REST, Docker deployment.
+
+---
+
+# TechNova Solutions Policy Q&A — RAG System (Assignment)
+
+A Retrieval-Augmented Generation (RAG) system built with **LangChain**, **Groq**, **HuggingFace**, and **FAISS** to answer employee questions about company policies accurately, with zero hallucination.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-v1.4%2B-green?logo=langchain&logoColor=white)](https://python.langchain.com/)

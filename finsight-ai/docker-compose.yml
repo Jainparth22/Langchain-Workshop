@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  # ── FinSight AI API ────────────────────────────────────────────────────
+  finsight-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: finsight-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      # LLM Providers — override via .env file
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DEBUG=${DEBUG:-false}
+      - API_KEYS=${API_KEYS:-["dev-key-change-in-production"]}
+      - LANGCHAIN_TRACING_V2=${LANGCHAIN_TRACING_V2:-false}
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY:-}
+    volumes:
+      # Persist FAISS index, SQLite DB, and BM25 index across restarts
+      - finsight-data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    networks:
+      - finsight-net
+
+volumes:
+  finsight-data:
+    driver: local
+
+networks:
+  finsight-net:
+    driver: bridge

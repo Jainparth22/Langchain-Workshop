@@ -1,0 +1,57 @@
+# FinSight AI — Complete Dependency Stack
+# Install: pip install -r requirements.txt
+
+# ── FastAPI Web Framework ──────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17        # File upload support
+
+# ── LangChain Ecosystem ────────────────────────────────────────────────────
+langchain==0.3.9
+langchain-core==0.3.21
+langchain-community==0.3.8
+langchain-text-splitters==0.3.2
+langchain-groq==0.2.1           # Primary LLM provider (fastest inference)
+langchain-openai==0.2.10        # Secondary LLM provider (fallback)
+langchain-huggingface==0.1.2    # Local embeddings (zero cost)
+langchain-ollama==0.2.1         # Tertiary fallback (fully offline)
+langchain-experimental==0.3.3   # SemanticChunker (optional)
+
+# ── LangGraph (Multi-Agent Orchestration) ─────────────────────────────────
+langgraph==0.2.53               # Stateful agent graph (Researcher/Responder/Critic)
+
+# ── Vector Store ───────────────────────────────────────────────────────────
+faiss-cpu==1.9.0                # Dense vector similarity search
+
+# ── Embeddings & Reranking ─────────────────────────────────────────────────
+sentence-transformers==3.3.1    # Local embeddings + cross-encoder reranker
+
+# ── BM25 Keyword Search ────────────────────────────────────────────────────
+rank-bm25==0.2.2                # Keyword index for hybrid retrieval
+
+# ── Document Loaders (multi-format) ───────────────────────────────────────
+pymupdf==1.24.13                # PDF: best table/layout preservation
+docx2txt==0.8                   # DOCX Word documents
+pypdf==5.1.0                    # PDF fallback parser
+unstructured==0.16.10           # Universal document parser (optional)
+
+# ── Configuration ──────────────────────────────────────────────────────────
+pydantic==2.10.2
+pydantic-settings==2.6.1        # .env file support
+python-dotenv==1.0.1
+
+# ── Evaluation (RAGAS) ─────────────────────────────────────────────────────
+ragas==0.2.6                    # RAG quality metrics (faithfulness, relevancy, etc.)
+datasets==3.1.0                 # HuggingFace datasets (RAGAS dependency)
+
+# ── Database (Conversation Memory) ────────────────────────────────────────
+# SQLite is stdlib — no extra package needed
+# Future Redis upgrade: redis==5.2.1 + langchain-redis==0.1.0
+
+# ── Observability ──────────────────────────────────────────────────────────
+langsmith==0.1.147              # Optional LLM call tracing
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.0                   # FastAPI test client

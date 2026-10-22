@@ -1,0 +1,112 @@
+TechNova Financial Holdings — Annual Report FY 2024
+
+EXECUTIVE SUMMARY
+
+TechNova Financial Holdings reported record revenues of $4.82 billion for fiscal year 2024, representing a 17.3% increase year-over-year from $4.11 billion in FY2023. Net income attributable to common shareholders reached $892 million, or $3.47 per diluted share, compared to $721 million, or $2.81 per diluted share in FY2023.
+
+CONSOLIDATED INCOME STATEMENT (USD Millions)
+
+Metric                          FY2024      FY2023      YoY Change
+-----------------------------------------------------------------------
+Total Revenue                   4,820       4,110       +17.3%
+Cost of Revenue                 2,150       1,890       +13.8%
+Gross Profit                    2,670       2,220       +20.3%
+Gross Margin                    55.4%       54.0%       +140 bps
+Operating Expenses              1,340       1,180       +13.6%
+  R&D                             420         380       +10.5%
+  Sales & Marketing               610         520       +17.3%
+  General & Administrative        310         280       +10.7%
+EBITDA                          1,480       1,150       +28.7%
+EBITDA Margin                   30.7%       28.0%       +270 bps
+Depreciation & Amortization       180         165       +9.1%
+EBIT (Operating Income)         1,300         985       +32.0%
+Interest Expense                   92          87       +5.7%
+Pre-Tax Income                  1,208         898       +34.5%
+Tax Provision                     316         177       +78.5%
+Effective Tax Rate              26.2%       19.7%       +650 bps
+Net Income                        892         721       +23.7%
+EPS (Diluted)                   $3.47       $2.81       +23.5%
+Weighted Avg Shares (Diluted)   257.0M      256.6M
+
+SEGMENT PERFORMANCE
+
+1. Financial Intelligence Platform (FIP)
+   Revenue: $2,340M (+22.1% YoY)
+   Segment EBITDA: $820M | Margin: 35.0%
+   Key driver: Enterprise SaaS subscription growth of 34% YoY, with 2,847 net new enterprise logos.
+   ARR (Annual Recurring Revenue): $1.92B as of December 31, 2024.
+
+2. Data & Analytics Services (DAS)
+   Revenue: $1,580M (+14.5% YoY)
+   Segment EBITDA: $450M | Margin: 28.5%
+   Key driver: Expansion of real-time market data feeds to 892 institutional clients globally.
+
+3. Risk Management Solutions (RMS)
+   Revenue: $900M (+9.8% YoY)
+   Segment EBITDA: $210M | Margin: 23.3%
+   Key driver: Adoption of AI-powered credit risk models across 47 banking clients.
+
+BALANCE SHEET HIGHLIGHTS (as of December 31, 2024)
+
+Total Assets:                   $8,240M
+Cash & Cash Equivalents:        $1,840M
+Short-term Investments:           $620M
+Total Liquidity:                $2,460M
+Total Debt:                     $1,120M
+Net Debt (Cash minus Debt):      ($740M)  [Net Cash Position]
+Shareholders' Equity:           $4,910M
+Book Value Per Share:           $19.10
+Debt-to-Equity Ratio:             0.23x
+
+CASH FLOW STATEMENT (FY2024)
+
+Operating Cash Flow:            $1,210M
+Capital Expenditures:            ($280M)
+Free Cash Flow:                   $930M
+FCF Margin:                       19.3%
+Dividends Paid:                  ($154M)
+Share Repurchases:               ($400M)
+Net Change in Cash:               +$376M
+
+RISK FACTORS
+
+1. Interest Rate Sensitivity: A 100 basis point increase in benchmark interest rates would increase our annual interest expense by approximately $11.2 million based on our current floating-rate debt of $1.12 billion. Approximately 78% of our long-term debt is fixed-rate, mitigating this exposure.
+
+2. Regulatory Risk: The company operates in 34 jurisdictions. Evolving financial data regulations (including EU DORA, SEC data governance rules, and India PDPB) may require significant compliance investments estimated at $45-65 million over FY2025-FY2026.
+
+3. Customer Concentration: Our top 10 customers represent 28.4% of total revenue. Loss of any top-3 customer could reduce annual revenues by $180-$260 million.
+
+4. Cybersecurity Risk: We process approximately 4.2 terabytes of sensitive financial data daily. A material breach could result in regulatory penalties, client attrition, and reputational damage exceeding $500 million in estimated total impact.
+
+5. AI Model Risk: Our AI-powered products use machine learning models trained on historical financial data. Model performance may degrade during unprecedented market conditions, and algorithmic errors could expose clients to financial losses.
+
+MANAGEMENT DISCUSSION & ANALYSIS (MD&A)
+
+Geographic Revenue Distribution:
+  North America:    $2,890M (59.9%)
+  Europe:           $1,150M (23.9%)
+  Asia-Pacific:       $580M (12.0%)
+  Rest of World:      $200M  (4.2%)
+
+R&D Investments:
+TechNova invested $420 million in R&D during FY2024 (8.7% of revenue), focused on:
+- Large Language Model integration into financial analytics workflows
+- Real-time fraud detection using graph neural networks
+- Quantum-resistant encryption for financial data transmission
+
+Employee Metrics:
+Total employees: 12,847 (as of Dec 31, 2024)
+New hires in FY2024: 2,341
+Employee retention rate: 91.2%
+Revenue per employee: $375,200
+
+FORWARD GUIDANCE (FY2025)
+
+Revenue:              $5.4B – $5.6B  (guidance range)
+EBITDA Margin:        31% – 33%
+EPS (Diluted):        $3.90 – $4.15
+Capital Expenditures: $300M – $340M
+Free Cash Flow:       $1.0B – $1.15B
+
+This document contains forward-looking statements subject to risks and uncertainties.
+Actual results may differ materially. Past performance is not indicative of future results.
