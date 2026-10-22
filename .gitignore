@@ -1,7 +1,52 @@
-# Do NOT submit these files
-.env
-api key.md
-__pycache__/
-*.pyc
-.cache/
+# FinSight AI — Git Ignore
+# ──────────────────────────────────────────────────────────────────────────
 
+# Secrets — NEVER commit these
+.env
+*.key
+api_keys.txt
+api key.md
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Data (persisted indexes — too large for git)
+data/faiss_index/
+data/finsight.db
+data/bm25_index.pkl
+
+# ML model cache (downloaded at runtime)
+.cache/
+*.bin
+*.pt
+*.onnx
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
